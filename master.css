@@ -16,25 +16,28 @@ body {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   opacity: .5
-
 }
 
-.taiyang{
-  position: absolute;
-  animation-name:float;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  opacity: .5
-}
-@keyframes float {
-
-
-}
 @keyframes float {
   from{transform:translate(-100px,300px)rotate(0);
   }
   to{transform: translate(700px,-120px)rotate(300deg);
+  }
+}
+
+.juxing{
+  position: absolute;
+  animation-name:juxing;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: .5
+}
+
+@keyframes juxing{
+  from{transform:translate(-200px,-100px)rotate(0);
+  }
+  to{transform: translate(3000px,2000px)rotate(720deg);
   }
 }
 
