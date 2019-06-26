@@ -34,7 +34,7 @@ body {
 @keyframes float {
   from{transform:translate(-100px,300px)rotate(0);
   }
-  to{transform: translate(700px,-50px)rotate(300deg);
+  to{transform: translate(700px,-120px)rotate(300deg);
   }
 }
 
