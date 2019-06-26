@@ -28,7 +28,7 @@ body {
 .juxing{
   position: absolute;
   animation-name:juxing;
-  animation-duration: 80s;
+  animation-duration: 60s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   opacity: .5
@@ -37,7 +37,7 @@ body {
 @keyframes juxing{
   from{transform:translate(-200px,-100px)rotate(0);
   }
-  to{transform: translate(3000px,2000px)rotate(720deg);
+  to{transform: translate(2000px,1000px)rotate(720deg);
   }
 }
 
